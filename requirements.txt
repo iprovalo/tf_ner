@@ -1,2 +1,2 @@
-tensorflow>=1.9
-tf_metrics
+tensorflow==2.15.1
+tensorflow-addons

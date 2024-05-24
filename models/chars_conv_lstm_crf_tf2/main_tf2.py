@@ -27,6 +27,8 @@ data_folder_name = './'
 DATADIR = '../../data/example'
 print(tf.__version__)
 
+NUMBER_OF_EPOCHS = 25
+BATCH_SIZE = 20
 
 is_debug = False
 

@@ -14,16 +14,11 @@ The script [`lstm_crf/main.py`](https://github.com/guillaumegenthial/tf_ner/blob
 
 You need __python3__ -- If you haven't switched yet, do it.
 
-You need to install [`tf_metrics` ](https://github.com/guillaumegenthial/tf_metrics) (multi-class precision, recall and f1 metrics for Tensorflow).
-```
-pip install git+https://github.com/guillaumegenthial/tf_metrics.git
-```
-OR
-```
-git clone https://github.com/guillaumegenthial/tf_metrics.git
-cd tf_metrics
-pip install .
-```
+This project is only to demo TF 2 conversion, using a single model - models/chars_conv_lstm_crf_tf2
+
+This model folder also contains the metrics source code which had to be modified for TF 2.
+
+For TF 1 implementations, please use the original source. 
 
 ## Data Format
 
